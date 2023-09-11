@@ -14,7 +14,7 @@ def get_data(request):
     # still dont understand the time validation yet
     current_utc_time = timezone.now().isoformat()
     
-    github_fil_url = ""
+    github_fil_url = "https://github.com/andazi/django-with-zuri-projects/blob/main/README.md"
     github_repo_url =  "https://github.com/andazi/django-with-zuri-projects"
     status_code =  200
 
